@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณ T-Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>T-Score Calculate</h1>
+
+        <label for="mean">ค่าเฉลี่ย :</label>
+        <input type="number" id="mean" step="any">
+
+        <label for="stdDev">ค่าเบี่ยงเบนมาตรฐาน :</label>
+        <input type="number" id="stdDev" step="any">
+
+        <label for="score">คะแนนที่ได้จากการสอบ:</label>
+        <input type="number" id="score" step="any">
+
+        <button onclick="calculateTScore()">คำนวณ T-Score</button>
+
+        <p id="result"></p>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
