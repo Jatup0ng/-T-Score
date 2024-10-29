@@ -22,13 +22,13 @@ input, button {
 }
 
 button {
-    background-color: #ffffff;
-    color: #10a426;
+    background-color: #74c6f5;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     font-size: 18px;
 }
 
 button:hover {
-    background-color: #2d2e2f;
+    background-color: #67c0ed;
 }
